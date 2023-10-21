@@ -1,7 +1,7 @@
 {
-  "name": "astroid-v3",
+  "name": "math-v3",
   "version": "3.1",
-  "description": "Astroid, a proxy that supports now.gg and uses Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!",
+  "description": "math website",
   "type": "module",
   "engines": {
     "npm": ">=7.0.0",
