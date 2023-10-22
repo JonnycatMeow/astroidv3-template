@@ -29,7 +29,7 @@ server.on("upgrade", (req, socket, head) => {
     socket.end();
   }
 });
-const port = process.env.PORT || 3300;
+const port = process.env.PORT || 8080;
 server.on("listening", () => {
   console.log('UP')
 });
