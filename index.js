@@ -1,8 +1,6 @@
 import { createBareServer } from '@tomphttp/bare-server-node';
 import express from "express";
 import { createServer } from "node:http";
-import { SocksProxyAgent } from 'socks-proxy-agent';
-const socksProxyAgent = new SocksProxyAgent('socks://localhost:40000');
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { join } from "node:path";
 import { hostname } from "node:os";
